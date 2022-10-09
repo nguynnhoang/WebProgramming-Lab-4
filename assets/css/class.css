@@ -1,0 +1,101 @@
+.class{
+    background: rgba(240, 135, 50, 0.1);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.class .class-video{
+    background-image: url('../images/class-video.jpg.webp');
+    position: absolute;
+    height: 720px;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 0;
+    top: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.class .class-video .class-video-btn{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #f08632;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.class .class-form{
+    height: 600px;
+}
+
+.class .class-form .class-title{
+    margin-bottom: 50px;
+}
+
+.class .class-form .class-title span{
+    color: #f08632;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.class .class-form .class-title h2{
+    font-size: 46px;
+    color: #000;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Playfair Display",serif;
+}
+
+.class .class-form .class-input .class-input-name{
+    height: 50px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.class .class-form .class-input .class-input-phone{
+    height: 50px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.class .class-form .class-input #class-cake{
+    height: 50px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.class .class-form .class-input .class-register{
+    height: 50px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+.about{
+    padding: 100px 0;
+}
+
+.about .about-content .about-title{
+    margin-bottom: 35px;
+}
+
+.about .about-content .about-title span{
+    color: #f08632;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.about .about-content .about-title h2{
+    font-size: 46px;
+    color: #111111;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Playfair Display", serif
+}
+
+.about .about-content .about-text{
+    width: 80%;
+}
+
+.about .about-bar .about-bar-item{
+    padding: 20px 0;
+}
+
+.about .about-bar .about-bar-item .progress{
+    height: 8px!important;
+    border-radius: 0!important;
+} 

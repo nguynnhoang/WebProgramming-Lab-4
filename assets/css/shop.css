@@ -1,0 +1,141 @@
+.shop-intro{
+    padding-top: 60px;
+}
+
+.shop-intro .shop-intro-text h2{
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Playfair Display",serif;
+}
+
+.shop-intro .shop-intro-link{
+    text-align: right;
+    padding-top: 15px;
+}
+
+.shop-intro .shop-intro-link a{
+    color: #000;
+    margin-right: 26px;
+    display: inline-block;
+    position: relative;
+}
+
+.shop-intro .shop-intro-link a:after{
+    content: "|";
+    position: absolute;
+    right: -16px;
+}
+
+.shop-intro .shop-intro-link span{
+    color: #888;
+}
+
+.shop-detail{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.shop-detail .shop-detail-options .shop-detail-options-left .dropdown-links{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* .shop-detail .shop-detail-options .shop-detail-options-left .dropdown-links:after{
+    content: "|";
+    position: absolute;
+    right: -16px;
+} */
+
+.shop-detail .shop-detail-options .shop-detail-options-left .dropdown-links .custom-dropdown-links{
+    background: none!important;
+    color: #000!important;
+    border-radius: 0%!important;
+    border: none!important;
+}
+
+.shop-detail-options .shop-detail-options-left{
+    margin-bottom: 65px;
+}
+
+.shop-detail-options .shop-detail-options-left form{
+    position: relative;
+    display: inline-flex;
+    border: 1px solid #e1e1e1;
+}
+
+.shop-detail-options .shop-detail-options-left .search-bar{
+    position: relative;
+}
+
+.shop-detail-options .shop-detail-options-left .search-bar input{
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    color: #444444;
+    padding-left: 20px;
+    border: none;
+}
+
+.shop-detail-options .shop-detail-options-left .search-bar button{
+    height: 100%;
+    font-size: 18px;
+    color: #000;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    padding: 0 18px;
+}
+
+
+.shop-detail-options .shop-detail-options-right .default-sorting .custom-default-sorting{
+    border: none;
+    background: #f5f5f5;
+    color: #000;
+    width: 205px;
+    height: 46px;
+    line-height: 35px;
+    border-radius: 0;
+    margin-right: 18px;
+}
+
+.shop-detail-options .shop-detail-options-right .list{
+    font-size: 18px;
+    color: #000;
+    margin: 0px 10px;
+    transition: .4s;
+}
+
+.shop-detail-options .shop-detail-options-right .list:hover{
+    color:#888
+}
+
+.shop-detail-options .shop-detail-options-right .bars{
+    font-size: 18px;
+    color: #000;
+    transition: .4s;
+}
+
+.shop-detail-options .shop-detail-options-right .bars:hover{
+    color: #888;
+}
+
+.shop-detail-more .shop-pagination a{
+    margin-right: 30px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.shop-detail-more .shop-pagination a:last-child{
+    font-size: 14px;
+}
+
+.shop-detail-more .shop-last-text p{
+    line-height: 28px;
+    margin: 0 0 15px 0;
+}

@@ -1,0 +1,350 @@
+.blog-intro{
+    padding-top: 60px;
+}
+
+.blog-intro .blog-intro-text h2{
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Playfair Display",serif;
+}
+
+.blog-intro .blog-intro-link{
+    text-align: right;
+    padding-top: 15px;
+}
+
+.blog-intro .blog-intro-link a{
+    color: #000;
+    margin-right: 26px;
+    display: inline-block;
+    position: relative;
+}
+
+.blog-intro .blog-intro-link a:after{
+    content: "|";
+    position: absolute;
+    right: -16px;
+}
+
+.blog-intro .blog-intro-link span{
+    color: #888;
+}
+
+.blog-content{
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.blog-content-item{
+    margin-bottom: 70px;
+}
+
+.blog-content-item .blog-content-item-img{
+    height: 385px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.blog-content-item .blog-content-item-img .img-inner{
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 80%;
+    padding: 30px 0 0;
+}
+
+.blog-content-item .blog-content-item-img .img-inner .recipes{
+    display: inline-block;
+    background-color: #f08632;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 15px 2px;
+}
+
+.blog-content-item .blog-content-item-img .img-inner ul{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.blog-content-item .blog-content-item-img .img-inner ul li{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    color: #888;
+    margin-right: 20px;
+}
+
+.blog-content-item .blog-content-item-img .img-inner ul li:after{
+    content: "|";
+    position: absolute;
+    right: -14px;
+}
+
+.blog-content-item .blog-content-item-img .img-inner ul li:after:last-child{
+    display: none;
+}
+
+.blog-content .blog-content-item .blog-content-item-text{
+    padding-top: 42px;
+}
+
+.blog-content .blog-content-item .blog-content-item-text h2{
+    font-family: "Playfair Display",serif;
+    color: #111;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.blog-content .blog-content-item .blog-content-item-text p{
+    color: #444;
+    margin-bottom: 26px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.blog-content .blog-content-item .blog-content-item-text a{
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #f08632;
+}
+
+.blog-content .blog-sidebar .blog-sidebar-search{
+    margin-bottom: 65px;
+}
+
+.blog-content .blog-sidebar .blog-sidebar-search form{
+    position: relative;
+}
+
+.blog-content .blog-sidebar .blog-sidebar-search form input{
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    color: #444444;
+    padding-left: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+.blog-content .blog-sidebar .blog-sidebar-search form button{
+    height: 100%;
+    font-size: 18px;
+    color: #000;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    padding: 0 18px;
+}
+
+.blog-sidebar .blog-sidebar-contact{
+    margin-bottom: 65px;
+}
+
+.blog-sidebar .blog-sidebar-contact .blog-sidebar-contact-link a{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: #f2f2f2;
+    color: #000;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 6px;
+    transition: .4s;
+}
+
+.blog-sidebar .blog-sidebar-contact .blog-sidebar-contact-link a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.blog-sidebar .blog-sidebar-contact h5{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.blog-sidebar .blog-sidebar-contact h5:before{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 10px;
+    background: rgba(226, 108, 12, 0.3);
+    left: 0;
+    top: 5px;
+}
+
+.blog-sidebar .blog-sidebar-posts{
+    margin-bottom: 65px;
+}
+
+.blog-sidebar .blog-sidebar-posts h5{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.blog-sidebar .blog-sidebar-posts h5:before{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 10px;
+    background: rgba(226, 108, 12, 0.3);
+    left: 0;
+    top: 5px;
+}
+
+.blog-sidebar-posts .blog-sidebar-posts-items .blog-sidebar-posts-item{
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.blog-sidebar-posts .blog-sidebar-posts-items .blog-sidebar-posts-item .blog-sidebar-posts-item-img{
+    float: left;
+    margin-right: 25px;
+}
+
+.blog-sidebar-posts .blog-sidebar-posts-items .blog-sidebar-posts-item .blog-sidebar-posts-item-img img{
+    vertical-align: middle;
+}
+
+.blog-sidebar-posts .blog-sidebar-posts-items .blog-sidebar-posts-item .blog-sidebar-posts-item-text{
+    overflow: hidden;
+}
+
+.blog-sidebar-posts .blog-sidebar-posts-items .blog-sidebar-posts-item .blog-sidebar-posts-item-text h4{
+    font-size: 20px;
+    color: #000;
+    line-height: 26px;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 8px;
+}
+
+.blog-sidebar-posts .blog-sidebar-posts-items .blog-sidebar-posts-item .blog-sidebar-posts-item-text span{
+    font-size: 12px;
+    color: #888888;
+}
+
+.blog-sidebar .blog-sidebar-categories h5{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.blog-sidebar .blog-sidebar-categories h5:before{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 10px;
+    background: rgba(226, 108, 12, 0.3);
+    left: 0;
+    top: 5px;
+}
+
+.blog-sidebar .blog-sidebar-categories{
+    margin-bottom: 65px;
+}
+
+.blog-sidebar .blog-sidebar-categories .blog-sidebar-categories-items ul li{
+    line-height: 36px;
+}
+
+.blog-sidebar .blog-sidebar-categories .blog-sidebar-categories-items ul li a{
+    color: #444444;
+    transition: .4s;
+}
+
+.blog-sidebar .blog-sidebar-categories .blog-sidebar-categories-items ul li a:hover{
+    text-decoration: line-through;
+}
+
+.blog-sidebar .blog-sidebar-categories .blog-sidebar-categories-items ul li a:hover span{
+    color: #f08632;
+}
+
+.blog-sidebar .blog-sidebar-categories .blog-sidebar-categories-items ul li a span{
+    float: right;
+    transition: .4s;
+}
+
+.blog-sidebar .blog-sidebar-newsletter h5{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.blog-sidebar .blog-sidebar-newsletter h5:before{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 10px;
+    background: rgba(226, 108, 12, 0.3);
+    left: 0;
+    top: 5px;
+}
+
+.blog-sidebar .blog-sidebar-newsletter p{
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.blog-sidebar .blog-sidebar-newsletter form input{
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 20px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px
+}
+
+.blog-sidebar .blog-sidebar-newsletter form button{
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 14px 30px;
+}
+
+.blog-detail-more .blog-pagination a{
+    margin-right: 30px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.blog-detail-more .blog-pagination a:last-child{
+    font-size: 14px;
+}
+
+.blog-detail-more .blog-last-text p{
+    line-height: 28px;
+    margin: 0 0 15px 0;
+}

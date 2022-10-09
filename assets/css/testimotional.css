@@ -1,0 +1,47 @@
+.testimotional{
+    background: #fdf3ea;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.testimotional .testimotional-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.testimotional .testimotional-title span{
+    color: #f08632;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.testimotional .testimotional-title h2{
+    font-size: 46px;
+    color: #000;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+
+.testimotional .testimotional-item{
+    width: 480px!important;
+}
+
+.testimotional .testimotional-item .client-detail{
+    background-color: #fff;
+    padding: 40px 45px 35px 50px;
+    position: relative;
+}
+
+.testimotional .testimotional-item .client-detail .client-detail-author{
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 24px
+}
+
+.testimotional .testimotional-item .client-detail .client-detail-author .client-detail-rating{
+    display: flex;
+}
