@@ -9,7 +9,8 @@
     <script src="https://kit.fontawesome.com/d9876ed7d9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">        
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="../index.php">   
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
@@ -56,9 +57,9 @@
                 </div>
     
                 <div class="nav-wrapper-bottom d-flex justify-content-center align-items-center">
-                    <li><a href="#" class="nav-bottom-link text-light fw-bolder">Home</a></li>
+                    <li><a href="http://localhost/index.php?page=home" class="nav-bottom-link text-light fw-bolder">Home</a></li>
                     <li><a href="#" class="nav-bottom-link text-light fw-bolder">About</a></li>
-                    <li><a href="pages/shop.html" class="nav-bottom-link text-light fw-bolder">Shop</a></li>
+                    <li><a href="http://localhost/index.php?page=blog" class="nav-bottom-link text-light fw-bolder">Shop</a></li>
                     <li><a href="#" class="nav-bottom-link pages text-light fw-bolder">Pages</a></li>
                         <ul class="sub-nav-bottom-link">
                             <li><a href="">Shopping Details</a></li>
@@ -68,7 +69,7 @@
                             <li><a href="">Class</a></li>
                             <li><a href="">Blog details</a></li>
                         </ul>
-                    <li><a href="pages/blog.html" class="nav-bottom-link text-light fw-bolder">Blog</a></li>
+                    <li><a href="http://localhost/index.php?page=products" class="nav-bottom-link text-light fw-bolder">Blog</a></li>
                     <li><a href="#" class="nav-bottom-link text-light fw-bolder">Contact</a></li>
                 </div>
 

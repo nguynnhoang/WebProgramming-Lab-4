@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="assets/libs/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/libs/bootstrap-5.2.1-dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/d9876ed7d9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">        
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/product-list.css">
-    <link rel="stylesheet" href="assets/css/class.css">
-    <link rel="stylesheet" href="assets/css/team.css">
-    <link rel="stylesheet" href="assets/css/follow.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/testimotional.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="../index.php">     
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/product-list.css">
+    <link rel="stylesheet" href="../assets/css/class.css">
+    <link rel="stylesheet" href="../assets/css/team.css">
+    <link rel="stylesheet" href="../assets/css/follow.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/testimotional.css">
+    
     <title>My Cake</title>
 </head>
 <body>
@@ -49,7 +51,7 @@
     
                     <div class="nav-logo d-flex">
                         <a href="#">
-                            <img src="assets/images/logo.webp" alt="">
+                            <img src="../assets/images/logo.webp" alt="">
                         </a>
                     </div>
     
@@ -61,9 +63,9 @@
                 </div>
     
                 <div class="nav-wrapper-bottom d-flex justify-content-center align-items-center">
-                    <li><a href="#" class="nav-bottom-link text-light fw-bolder">Home</a></li>
+                    <li><a href="http://localhost/index.php?page=home" class="nav-bottom-link text-light fw-bolder">Home</a></li>
                     <li><a href="#" class="nav-bottom-link text-light fw-bolder">About</a></li>
-                    <li><a href="pages/shop.html" class="nav-bottom-link text-light fw-bolder">Shop</a></li>
+                    <li><a href="http://localhost/index.php?page=products" class="nav-bottom-link text-light fw-bolder">Shop</a></li>
                     <li><a href="#" class="nav-bottom-link pages text-light fw-bolder">Pages</a></li>
                         <ul class="sub-nav-bottom-link">
                             <li><a href="">Shopping Details</a></li>
@@ -73,7 +75,7 @@
                             <li><a href="">Class</a></li>
                             <li><a href="">Blog details</a></li>
                         </ul>
-                    <li><a href="pages/blog.html" class="nav-bottom-link text-light fw-bolder">Blog</a></li>
+                    <li><a href="http://localhost/index.php?page=blog" class="nav-bottom-link text-light fw-bolder">Blog</a></li>
                     <li><a href="#" class="nav-bottom-link text-light fw-bolder">Contact</a></li>
                 </div>
 
@@ -83,7 +85,7 @@
                 </div>
             </div>
             <div class="navbar-mobile">
-                <img src="assets/images/logo.webp" alt="" class="menu-mobile-logo">
+                <img src="../assets/images/logo.webp" alt="" class="menu-mobile-logo">
                 <ul class="navbar-mobile-list">
                     <li class="navbar-mobile-list-item"><a href="#">Home</a></li>
                     <li class="navbar-mobile-list-item"><a href="#">About</a></li>
@@ -105,14 +107,14 @@
             </div> -->
             <div class="carousel-inner carousel-wrapper">
               <div class="carousel-item custom-carousel-item active">
-                <img src="assets/images/hero-1.jpg.webp" class="d-block w-100" alt="...">
+                <img src="../assets/images/hero-1.jpg.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption custom-carousel-caption d-none d-md-block">
                     <h2>Making your life sweeter one bite at a time</h2>
                     <a href="#" class="our-cake-btn">OUR CAKES</a>
                 </div>
               </div>
               <div class="carousel-item custom-carousel-item">
-                <img src="assets/images/hero-1.jpg.webp" class="d-block w-100" alt="...">
+                <img src="../assets/images/hero-1.jpg.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption custom-carousel-caption d-none d-md-block">
                     <h2>Making your life sweeter one bite at a time</h2>
                     <a href="#" class="our-cake-btn">OUR CAKES</a>
@@ -198,7 +200,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-1.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-1.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -212,7 +214,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-2.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-2.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -226,7 +228,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-3.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-3.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -240,7 +242,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-4.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-4.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -254,7 +256,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-5.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-5.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -268,7 +270,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-6.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-6.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -282,7 +284,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-7.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-7.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -296,7 +298,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="product-item">
-                            <div class="product-image" style="background-image: url('assets/images/product-8.jpg.webp')">
+                            <div class="product-image" style="background-image: url('../assets/images/product-8.jpg.webp')">
                                 <div class="product-label"><span>CUPCAKE</span></div>
                             </div>
                             <div class="product-detail">
@@ -362,7 +364,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="team-member" style="background-image: url('assets/images/team-1.jpg.webp');">
+                        <div class="team-member" style="background-image: url('../assets/images/team-1.jpg.webp');">
                             <div class="team-member-detail">
                                 <h6>RANDY BUTLER</h6>
                                 <span>Decorater</span>
@@ -376,7 +378,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="team-member" style="background-image: url('assets/images/team-2.jpg.webp');">
+                        <div class="team-member" style="background-image: url('../assets/images/team-2.jpg.webp');">
                             <div class="team-member-detail">
                                 <h6>RANDY BUTLER</h6>
                                 <span>Decorater</span>
@@ -390,7 +392,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="team-member" style="background-image: url('assets/images/team-3.jpg.webp');">
+                        <div class="team-member" style="background-image: url('../assets/images/team-3.jpg.webp');">
                             <div class="team-member-detail">
                                 <h6>RANDY BUTLER</h6>
                                 <span>Decorater</span>
@@ -404,7 +406,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="team-member" style="background-image: url('assets/images/team-4.jpg.webp');">
+                        <div class="team-member" style="background-image: url('../assets/images/team-4.jpg.webp');">
                             <div class="team-member-detail">
                                 <h6>RANDY BUTLER</h6>
                                 <span>Decorater</span>
@@ -605,32 +607,32 @@
                         <duv class="row">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div class="follow-image">
-                                    <img src="assets/images/xinstagram-1.jpg.pagespeed.ic.-miiHU9z0s.jpg" alt="">
+                                    <img src="../assets/images/xinstagram-1.jpg.pagespeed.ic.-miiHU9z0s.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div class="follow-image follow-image-middle">
-                                    <img src="assets/images/xinstagram-2.jpg.pagespeed.ic.PrUe97YaNT.jpg" alt="">
+                                    <img src="../assets/images/xinstagram-2.jpg.pagespeed.ic.PrUe97YaNT.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div class="follow-image">
-                                    <img src="assets/images/xinstagram-3.jpg.pagespeed.ic.41aoMJSE-B (1).jpg" alt="">
+                                    <img src="../assets/images/xinstagram-3.jpg.pagespeed.ic.41aoMJSE-B (1).jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div class="follow-image">
-                                    <img src="assets/images/xinstagram-3.jpg.pagespeed.ic.41aoMJSE-B.jpg" alt="">
+                                    <img src="../assets/images/xinstagram-3.jpg.pagespeed.ic.41aoMJSE-B.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div class="follow-image follow-image-middle">
-                                    <img src="assets/images/xinstagram-4.jpg.pagespeed.ic.DaPGnAyF-x.jpg" alt="">
+                                    <img src="../assets/images/xinstagram-4.jpg.pagespeed.ic.DaPGnAyF-x.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div class="follow-image">
-                                    <img src="assets/images/xinstagram-5.jpg.pagespeed.ic.YBQyF2M-6c.jpg" alt="">
+                                    <img src="../assets/images/xinstagram-5.jpg.pagespeed.ic.YBQyF2M-6c.jpg" alt="">
                                 </div>
                             </div>
                         </duv>
@@ -656,7 +658,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer-contacts">
                         <div class="footer-logo">
-                            <img src="assets/images/xfooter-logo.png.pagespeed.ic.FoBrjKx9yH.webp" alt="">
+                            <img src="../assets/images/xfooter-logo.png.pagespeed.ic.FoBrjKx9yH.webp" alt="">
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni minus non sequi architecto dolores incidunt!</p>
                         <div class="footer-icons">
@@ -715,10 +717,10 @@
         </div>
     </footer>
 
-    <script src="assets/libs/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
-    <script src="assets/libs/jquery-3.6.1.min.js"></script>
+    <script src="../assets/libs/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/libs/jquery-3.6.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/menu-mobile.js"></script>
+    <script src="../assets/js/slider.js"></script>
+    <script src="../assets/js/menu-mobile.js"></script>
 </body>
 </html>
