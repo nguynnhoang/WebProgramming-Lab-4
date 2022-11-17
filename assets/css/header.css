@@ -79,6 +79,10 @@
     padding: 20px 0;
 }
 
+.header .header-navigation .nav-wrapper .nav-wrapper-bottom li{
+    position: relative;
+}
+
 .header .header-navigation .nav-wrapper .nav-wrapper-bottom .nav-bottom-link{
     margin-left: 60px;
     font-size: 16px;
@@ -106,12 +110,31 @@
 .header .header-navigation .nav-wrapper .nav-wrapper-bottom .sub-nav-bottom-link{
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0%;
+    top: 120%;
+    left: 25%;
+    background: #fd7e14;
+    width: 100%;
 }
+
+.header .header-navigation .nav-wrapper .nav-wrapper-bottom .sub-nav-bottom-link li{
+    border-bottom: 1px solid #95490a;
+}
+
+.header .header-navigation .nav-wrapper .nav-wrapper-bottom .sub-nav-bottom-link li:last-child{
+    border-bottom: none;
+}
+
+.header .header-navigation .nav-wrapper .nav-wrapper-bottom .sub-nav-bottom-link li a{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+
 
 .header .header-navigation .nav-wrapper .nav-wrapper-bottom li:hover .sub-nav-bottom-link{
     display: block;
+    z-index: 3;
 }
 
 .custom-carousel-caption{

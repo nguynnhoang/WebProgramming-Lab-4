@@ -1,17 +1,20 @@
 <?php
     if (isset($_GET['page'])) {
-        switch($_GET['page'])
+        switch($page)
         {
             case "blog":
-            @include "./pages/blog.php";
+            header("Location:/Project/pages/blog.php");
             break;
     
             case "products":
-            @include "./pages/products.php";
+            header("Location:/Project/pages/products.php");
             break;
     
             default:
-            @include "./pages/home.php";
+            header("Location:/Project/pages/home.php");
         }
+    }
+    else {
+        header("Location:/Project/pages/home.php");
     }
 ?>
