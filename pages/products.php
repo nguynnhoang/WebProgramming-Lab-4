@@ -66,9 +66,9 @@
                             <li><a href="">Wish-list</a></li>
                         </ul>
                     </li>
-                    <li><a href="#" class="nav-bottom-link pages text-light fw-bolder">Pages</a></li>
                     <li><a href="http://localhost/Project/index.php?page=blog" class="nav-bottom-link text-light fw-bolder">Blog</a></li>
                     <li><a href="#" class="nav-bottom-link text-light fw-bolder">Contact</a></li>
+                    <li><a href="http://localhost/Project/index.php?page=login" class="nav-bottom-link text-light fw-bolder">Login</a></li>
                 </div>
 
                 <div class="navbar-toggle-mobile">
